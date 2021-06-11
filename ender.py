@@ -7,7 +7,7 @@ import datetime
 
 printerChannel = 21
 ledChannel = 18 
-
+ 
 def on_connect(client, userdata, flags, rc):  # The callback for when the client connects to the broker
     now = datetime.datetime.now()
     print(now, ": Connected with result code {0}".format(str(rc)))  # Print result of connection attempt
